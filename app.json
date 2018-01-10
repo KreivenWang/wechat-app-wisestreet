@@ -1,15 +1,15 @@
 {
-  "pages":[
+  "pages": [
+    "pages/wise/wise",
     "pages/index/index",
     "pages/logs/logs",
-    "pages/wise/wise",
     "pages/cinema/index"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
+  "window": {
+    "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#333",
     "navigationBarTitleText": "智慧五马",
-    "navigationBarTextStyle":"white"
+    "navigationBarTextStyle": "white"
   },
   "tabBar": {
     "selectedColor": "#6bcc79",
@@ -22,12 +22,6 @@
       },
       {
         "pagePath": "pages/wise/wise",
-        "text": "智慧管理",
-        "iconPath": "icons/grey/all.png",
-        "selectedIconPath": "icons/green/all.png"
-      },
-      {
-        "pagePath": "pages/cinema/index",
         "text": "智慧管理",
         "iconPath": "icons/grey/all.png",
         "selectedIconPath": "icons/green/all.png"

@@ -1,4 +1,10 @@
 ...view container 居中
 
+开发文档
+https://mp.weixin.qq.com/debug/wxadoc/dev/devtools/edit.html
+
 参考项目
 https://www.cnblogs.com/tuyile006/p/6268961.html
+
+flex布局
+http://blog.csdn.net/aoaoxiexie/article/details/53991432

@@ -13,7 +13,7 @@
   width: 256rpx;
   height: 256rpx;
   /* margin: 20rpx; */
-   border-radius: 10%; 
+  border-radius: 10%;
 }
 
 .userinfo-detail {
@@ -50,4 +50,30 @@
 .cert-text {
   color: #aaa;
   font-size: 14px;
+}
+
+.tools {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 20rpx auto;
+}
+
+.tools-image {
+  width: 64rpx;
+  height: 64rpx;
+}
+
+.tools-image::after{ /* how? */
+  width: 10px;
+  height: 10px;
+  background: red;
+}
+
+.tools-input {
+  background: #eee;
+  margin: 0 40rpx;
+  /* border: solid 1px #999; */
+  border-radius: 50rpx;
+  padding: 10rpx 25rpx;
 }
