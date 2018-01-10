@@ -1,0 +1,24 @@
+<view>
+  <view class="userinfo">
+    <!-- <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button> -->
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+      <view class='userinfo-detail'>
+      <text class='userinfo-nickname'>{{userInfo.nickName}}</text>
+      <text class='userinfo-city'>{{userInfo.city}}</text>
+      <view class='cert'>
+      <image class='cert-image' src='../../icons/green/wxb账户.png' mode='scaleToFill'></image>
+      <text class='cert-text'>商户认证</text>
+      </view>
+      
+      
+      </view>
+  </view>
+  <view class="usermotto">
+    <text class="user-motto">{{motto}}</text>
+  </view>
+  <view class="separator"></view>
+  <view>123</view>
+  <view class="separator"></view>
+  <view>456</view>
+  
+</view>

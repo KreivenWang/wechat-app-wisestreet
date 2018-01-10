@@ -1,0 +1,53 @@
+/* pages/wise/wise.wxss */
+@import '../../common.wxss';
+
+.userinfo {
+  display: flex;
+  flex-direction: row;
+  align-items: left;
+  /* background: #6bcc79; */
+  margin: 25rpx;
+}
+
+.userinfo-avatar {
+  width: 256rpx;
+  height: 256rpx;
+  /* margin: 20rpx; */
+   border-radius: 10%; 
+}
+
+.userinfo-detail {
+  display: flex;
+  flex-direction: column;
+  margin-left: 30rpx;
+  margin-top: 30rpx;
+}
+
+.userinfo-nickname {
+  font-size: 20px;
+  color: #333;
+  display: inline-block;
+}
+
+.userinfo-city {
+  font-size: 14px;
+  color: #666;
+  display: inline-block;
+}
+
+.cert {
+  display: flex;
+  flex-direction: row;
+  margin-top: 55rpx;
+}
+
+.cert-image {
+  width: 48rpx;
+  height: 48rpx;
+  margin: 0 10rpx 0 0;
+}
+
+.cert-text {
+  color: #aaa;
+  font-size: 14px;
+}

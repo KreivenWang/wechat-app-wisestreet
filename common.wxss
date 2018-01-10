@@ -1,0 +1,21 @@
+:root {
+  --main-color: #4d4e53;
+  --main-bg: rgb(255, 255, 255);
+  --logo-border-color: rebeccapurple;
+  --header-height: 68px;
+  --content-padding: 10px 20px;
+  --base-line-height: 1.428571429;
+  --transition-duration: 0.35s;
+  --external-link: "external link";
+  --margin-top: calc(2vh + 20px);
+  --grey-dark: #333;
+  --green: #6bcc79;
+}
+
+.separator{
+  width: 100%;
+  background: #ddd;
+  height: 2rpx;
+  margin: 10rpx auto;
+  display: block;
+}

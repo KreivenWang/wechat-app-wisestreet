@@ -1,0 +1,37 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/wise/wise",
+    "pages/cinema/index"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#333",
+    "navigationBarTitleText": "智慧五马",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+    "selectedColor": "#6bcc79",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "icons/grey/wxb主页.png",
+        "selectedIconPath": "icons/green/wxb主页.png"
+      },
+      {
+        "pagePath": "pages/wise/wise",
+        "text": "智慧管理",
+        "iconPath": "icons/grey/all.png",
+        "selectedIconPath": "icons/green/all.png"
+      },
+      {
+        "pagePath": "pages/cinema/index",
+        "text": "智慧管理",
+        "iconPath": "icons/grey/all.png",
+        "selectedIconPath": "icons/green/all.png"
+      }
+    ]
+  }
+}

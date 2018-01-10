@@ -1,0 +1,4 @@
+...view container 居中
+
+参考项目
+https://www.cnblogs.com/tuyile006/p/6268961.html
