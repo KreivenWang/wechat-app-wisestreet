@@ -3,7 +3,8 @@
     "pages/wise/wise",
     "pages/index/index",
     "pages/logs/logs",
-    "pages/cinema/index"
+    "pages/cinema/index",
+    "pages/weather/index"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -25,6 +26,12 @@
         "text": "智慧管理",
         "iconPath": "icons/grey/all.png",
         "selectedIconPath": "icons/green/all.png"
+      },
+      {
+        "pagePath": "pages/weather/index",
+        "text": "天气",
+        "iconPath": "icons/grey/wxb搜索推广.png",
+        "selectedIconPath": "icons/green/wxb搜索推广.png"
       }
     ]
   }
